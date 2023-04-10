@@ -1,25 +1,24 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+# 📊 Project: Simple API
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+### Goal: Display data returned from an api
 
 ### Process:
 
 <ol>
-  <li>The HTML and CSS was simple enough; classic &lt;table&gt; inputs to allow Javascript to add the user input. &lt;button&gt; for resetting the board and clearing the entire page as a whole (must be reset after a winner is declared).</li>
-  <li>The CSS was given a simple layout, my classic dashed lines with soft fonts.</li>
-  <li>The JavaScript behavior was made using class constructors--this is a concept I do not fully understand.  I really had to be walked through this one by a fellow cohort, Danny.</li>  
-  <li>My conditionals are set up simply: is there an element in the space?  If so, do not add anything to that space.</li>
-  <li>Using targetClass == 'TD,' it was able to target the cells of the table to be click</li>
-  <li>The alternating player clicks was done based on a click count.  I added one to my count variable, and based on whether the count was divisble by 2 (even or add) the click input with give either a '💗' or a '💔' for player 1 or player 2, respectively.</li>
-  <li>Winner is found through a <em>long</em> conditional that check if the cells have the same value inside of them, taking into a count all 8 ways to win.</li>
-  <li>Variables called 'player1Score' and 'player2Score' are incremented based on who is declared winner.
-  <li>Lastly, I added a gameEnd = true/false method to prevent the user from clicking on the box after a winner is declared.</li>
-</ol>
+  <li>Simple API, yes, but API's are not simple <em>(to me</em>.</li>
+  <li>The HTML and CSS was so simple a baby could do it!  Emojis for the user to click on and describe their emotion.</li>
+  <li>The JavaScript, erm, however, was uh, not that easy.</li>  
+  <li>I understand the concept of fetching a lot more after doing it so many times today (because this was not my first go).  Most of the challenge cames from finding an API that was still active or didn't contain a CORS error.</li>
+  <li>Originally, I had another thesaurus API, but the arrays were not as <em>plump</em> as I would have liked, but I digress.</li>
+  <li>Each of the emojis displayed are coded to equal a string after being clicked i.e, smiling emoji is 'happy' or the somber emoji is 'sad'.</li>
+  <li>I grab a theraurus API from Merriam Websterm and a random item from the array of the descriptors based on the emoji's string and pop that bad boy right in the HTML.</li>
+  <li>Some of the language does not take into account the tense of the word, like sad, can bring up 'saddening' which doesn't make sense for the descriptor 'sad'.</li>
+  <li>But all around, it was not to bad, especially when in comparison to the complex ones.</li>
 
-<p>Overall, I am proud of this project because of how it runs.  It's a classic game of tic-tac-toe, but themed in the style of romance.  I still have to go over JavaScript and objects, but at least it looks pretty!</p>
+<p>Overall, I am proud of the API, but not the CSS.  I wish I had more time to tweak it before I turned it in, but that's as old as a tale as, well, <em>time</em>.</p>
 
 <ul>
-  <li>I completed the challenge: | 5 <em>It's pretty and it's done 💕</em></li>
-  <li>I feel good about my code: | 3 <em>I still do not understand constructors!</em></li>
+  <li>I completed the challenge: | 4 <em>It's done, but I wish that the thesaurus took into account the tense of words.</em></li>
+  <li>I feel good about my code: | 4 <em>The JavaScript was actually pretty solid on this one, so I like it.  Once again, I just wish I could make it prettier.</em></li>
 </ul>
 
